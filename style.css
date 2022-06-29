@@ -1,11 +1,4 @@
-
-#test-row {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-}
-
-.colol {
-    display: inline-block;
+.bar-element:hover {
+    background-color: blue;
+    color: white;
 }

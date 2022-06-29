@@ -5,28 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Scort - 100% du sport</title>
 </head>
 <body>
-  <div class="row container-fluid">
-    <div class="col-1 border-end border-2 border-warning">
-      <div class="row p-2">Accueil</div>
-      <div class="row p-2">Football</div>
-      <div class="row p-2">Basketball</div>
+  <div class="row container-fluid p-0">
+    <div class="col-1 px-4 border-end bg-warning border-2 border-warning">
+      <div class="bar-element row p-2">Accueil</div>
+      <div class="bar-element row p-2">Foot</div>
+      <div class="bar-element row p-2">Basket</div>
     </div>
     <div class="col-11">
-      <img class="row-2" src="logo2.png" alt="logo scort">
+      <div class="row">
+        <img src="logo2.png" alt="logo scort">
+      </div>
       <div class="row">
         <div class="col">
           <div class="row">
             <div class="col">
-              <p>
+              <h2 class="my-3">
                 Les derniers matchs
-              </p>
+              </h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row p-3">
             <div class="col-3">
               <div class="card">
                 <div class="card-header bg-danger text-white text-center">Saint-Nicolas / Arras</div>
@@ -56,18 +58,18 @@
       </div>
       <div class="row-3">
         <div class="col">
-          <p>
+          <h2 class="my-3">
               TOP 5 du classement FOOT
-          </p>
-          <div class="row overflow-hidden">
+          </h2>
+          <div class="row overflow-hidden mt-4">
             <div class="col-12">
-              <div class="row">
+              <div class="row p-3">
                 <div class="col">
                   <div class="card" style="width: 100%; max-width: 230px; height: 400px">
                     <img src="psg.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">PSG</h5>
-                      <p class="card-text">Le meilleur club de ligue1 mais toujours pas de LDC .</p>
+                      <p class="card-text">Un club de branques surpayés, bien moins bon que Marseille.</p>
                       <a href="https://www.psg.fr/" class="btn btn-primary">aller sur le site</a>
                     </div>
                   </div>
@@ -77,7 +79,7 @@
                     <img src="berk.png" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">OM</h5>
-                      <p class="card-text">L'éternel second mais on y croit à l'EUROPA League.</p>
+                      <p class="card-text">Mon club préféré, allez l'OM ! Paris, Paris, on t.. on te respecte. Un peu.</p>
                       <a href="https://www.om.fr/fr" class="btn btn-primary">aller sur le site</a>
                     </div>
                   </div>
@@ -119,11 +121,11 @@
       </div>
       <div class="row">
         <div class="col">
-          <p>
+          <h2 class="my-3">
             TOP 5 du classement Basketball
-          </p>
+          </h2>
         </div>
-      <div class="row overflow-auto">
+      <div class="row overflow-auto mt-4 p-3">
         <div class="col">
           <div class="card" style="width: 100%; max-width: 230px;">
             <img src="logo-warriors.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
@@ -175,10 +177,29 @@
           </div>
         </div>
       </div>
-      <div class="row"></div>
+      <div class="row">
+        <div class="col-6 d-flex justify-content-center align-items-center">
+          <img class="w-100" src="logo2.png" alt="Scort">
+        </div>
+        <div class="col-6 my-4 bg-grey">
+          <p>
+            Ce site est un projet réalisé dans le cadre de mon stage découverte de 4ème, 
+            effectué au sein de la start-up Lota.cloud.
+          </p>
+          <p> 
+            Tous droits réservés. 
+          </p>
+          <p>
+            Nécessite une approbation du proprietaire pour toute copie.
+          </p>
+          <a href="https://lota.cloud"><p>Loto.cloud</p></a>
+          <a href="https://github.com/ClemKar">Mon Github</a> 
+        </div>
+      </div>
       </div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script type="module" src="./hook.js"></script>
 </body>
 </html>
