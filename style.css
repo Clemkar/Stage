@@ -1,22 +1,11 @@
-p {
-    color:darkturquoise;
-    font-size: 8px;
+
+#test-row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
 }
 
-div {
-    color: aqua;
-}
-
-.test {
-    color: blue;
-    font-size: 48xp;
-}
-
-#plop {
-    color: blueviolet;
-font-size: 48xp;
-}
-
-.bigtitle {
-    font-size: xx-large;
+.colol {
+    display: inline-block;
 }
