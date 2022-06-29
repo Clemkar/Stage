@@ -1,39 +1,184 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Document test</title>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <title>Scort - 100% du sport</title>
+</head>
 <body>
-  <!-- test card -->
-  <div class="container-fluid">
-    <div class="col-2">
-      <div class="row">Accueil</div>
-      <div class="row">Foot</div>
-      <div class="row">Basket</div>
+  <div class="row container-fluid">
+    <div class="col-1 border-end border-2 border-warning">
+      <div class="row p-2">Accueil</div>
+      <div class="row p-2">Football</div>
+      <div class="row p-2">Basketball</div>
     </div>
-    <div class="col-10">
-      <!-- Here goes the banner -->
-      <div class="row-2"></div>
-      <!-- derniers matchs -->
-      <div class="row-2"></div>
-      <!-- top 10 foot + mot classement -->
-      <div class="row-3"></div>
-      <!-- top 10 basket -->
-      <div class="row-2"></div>
-      <!-- footer -->
-      <div class="row-3"></div>
+    <div class="col-11">
+      <img class="row-2" src="logo2.png" alt="logo scort">
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <p>
+                Les derniers matchs
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="card">
+                <div class="card-header bg-danger text-white text-center">Saint-Nicolas / Arras</div>
+                <div class="card-footer text-center">1 - 7</div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <div class="card-header bg-danger text-white text-center">PSG / Marseille</div>
+                <div class="card-footer text-center">2 - 1</div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <div class="card-header bg-danger text-white text-center">Nantes / Guingamp</div>
+                <div class="card-footer text-center">3 - 3</div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <div class="card-header bg-danger text-white text-center">Monaco / Lyon</div>
+                <div class="card-footer text-center">13 - 4</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-3">
+        <div class="col">
+          <p>
+              TOP 5 du classement FOOT
+          </p>
+          <div class="row overflow-hidden">
+            <div class="col-12">
+              <div class="row">
+                <div class="col">
+                  <div class="card" style="width: 100%; max-width: 230px; height: 400px">
+                    <img src="psg.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PSG</h5>
+                      <p class="card-text">Le meilleur club de ligue encore une ligue 1 mais toujours pas de LDC .</p>
+                      <a href="" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 100%; max-width: 230px; height: 400px">
+                    <img src="berk.png" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">OM</h5>
+                      <p class="card-text">L'éternel second mais on y croit à l'EUROPA .</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 100%; max-width: 230px; height: 400px">
+                    <img src="RCLens.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">RCL</h5>
+                      <p class="card-text">Toujours pas dans une competiotion appart la coupe de france.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 100%; max-width: 230px; height: 400px">
+                    <img src="OL.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">OL</h5>
+                      <p class="card-text">Une des pire saison mais bon classement grace aux brésiliens.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="width: 100%; max-width: 230px; height: 400px">
+                    <img src="AIGLE PLUME.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">OGC NICE</h5>
+                      <p class="card-text">Se faire battre par Nantes en finale. LA HONTE.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>
+            TOP 5 du classement Basketball
+          </p>
+        </div>
+      <div class="row overflow-auto">
+        <div class="col">
+          <div class="card" style="width: 100%; max-width: 230px;">
+            <img src="logo-warriors.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">WARRIORS</h5>
+              <p class="card-text">Encore une victoire avec facilité, il faudrait en laisser un peu aux autres .</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%; max-width: 230px;">
+            <img src="celtics.png" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CELTICS</h5>
+              <p class="card-text">L'éternel second mais on y croit l'annee prochaine.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%; max-width: 230px;">
+            <img src="lakers.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lakers</h5>
+              <p class="card-text">Décevante cette année malgré des bons résultats on a connu mieux .</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%; max-width: 230px;">
+            <img src="bucks.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">BUCKS</h5>
+                <p class="card-text">Giannis n'a pas pu vous envoyer en finale c'est dommage.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%; max-width: 230px;">
+            <img src="nets.jpg" style="height: 200px; max-width: 230px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NETS</h5>
+              <p class="card-text">Éliminé trop tôt, à cause de qui?</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"></div>
+      </div>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
 </html>
